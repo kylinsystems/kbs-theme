@@ -1,2 +1,1 @@
-# kbs-theme
-KBS Theme
+# KBS Theme
