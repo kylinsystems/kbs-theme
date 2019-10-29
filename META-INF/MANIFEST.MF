@@ -1,11 +1,12 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: KBS Theme
+Bundle-Name: KBS Theme from KSYS
 Bundle-SymbolicName: com.kylinsystems.kbs.theme;singleton:=true
 Bundle-Version:6.2.0.qualifier
 Bundle-Vendor: KSYS
-Comment: Bundle-RequiredExecutionEnvironment: JavaSE-11
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.11))"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Fragment-Host: org.adempiere.ui.zk;bundle-version="0.0.0"
 Jetty-WarFragmentFolderPath: /
 Bundle-ClassPath: .,theme/
+Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: com.kylinsystems.kbs.theme

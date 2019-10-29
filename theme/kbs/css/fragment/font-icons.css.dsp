@@ -40,7 +40,7 @@
 	content: "\f0d7";
 }
 .z-icon-Edit:before {	
-	content: "\f040";
+	content: "\f044";
 }
 .z-icon-ErrorMessageBox:before {
 	content: "\f057";
@@ -197,7 +197,7 @@
 	content: "\f0d6";
 }
 .z-icon-PostIt:before {
-	content: "\f0f6";
+	content: "\f24a";
 }
 .z-icon-Preference:before {
 	content: "\f085";
@@ -215,7 +215,7 @@
 	content: "\f013";
 }
 .z-icon-Product:before {	
-	content: "\f1cb";
+	content: "\f07a";
 }
 .z-icon-QuestionMessageBox:before {
 	content: "\f059";
@@ -274,7 +274,10 @@
 .z-icon-Zoom:before {
 	content: "\f14c";
 }
-
 .z-icon-ZoomAcross:before {	
 	content: "\f00e";
 }
+.z-icon-CSVImport:before {
+	content: "\f0f6";
+}
+
