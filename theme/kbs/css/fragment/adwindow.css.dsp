@@ -29,6 +29,8 @@
 	width: 100%;
 	height: 100%;
 	background-color: #FFFFFF;
+	border-right: 1px solid #c5c5c5 !important;
+	border-left: 1px solid #c5c5c5 !important;
 }
 
 .adwindow-layout .z-center {
@@ -79,7 +81,6 @@
 
 .adwindow-toolbar {
 	border: 0px;
-	padding: 4px 4px;
 	height: 36px;
 	background-image: none;
 	background-color: #ffffff;
@@ -142,7 +143,8 @@
 .adwindow-detailpane-toolbar {
 	border: none;
 	height: 2em;
-	background: none;
+	background: #fefefe;
+	border-bottom: 1px solid #C5C5C5 !important;
 }
 
 .adwindow-detailpane-toolbar .z-toolbar-body {
@@ -209,12 +211,12 @@
 
 .adwindow-gridview-detail + .z-south-splitter {
 	border-top: 1px solid #C5C5C5;
-	border-bottom: 1px solid #C5C5C5;
+	border-bottom: 0px solid #C5C5C5;
 }
 
 .adwindow-gridview-detail .z-south-body {
-	padding-top: 1px;
-	background-color: #D3D3D3;
+	padding-top: 2px;
+	background-color: #e9f0ff;
 }
 
 .adwindow-gridview-borderlayout {
@@ -351,6 +353,7 @@
 }
 .adtab-grid > .z-grid-header > table > tbody > tr.z-columns > th.z-column > .z-column-content {
 	text-overflow: ellipsis;	
+	background: #cce5f4;
 }
 @media only screen 
   and (max-device-width: 700px) {

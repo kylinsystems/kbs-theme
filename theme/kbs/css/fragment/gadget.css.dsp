@@ -1,7 +1,4 @@
 .fav-new-btn {
-	margin-left: 4px;
-	margin-bottom: 3px;
-	padding-left: 1px;
 }
 
 .fav-new-btn img {
@@ -15,8 +12,8 @@
 
 .z-panel {
 	border-radius: 5px;
-	border: 1px solid #d8d8d8;
-	border-bottom-width: 1px;
+	border: 0px solid #d8d8d8;
+	border-bottom-width: 0px;
 }
 
 .z-panel-noborder {
@@ -43,7 +40,7 @@
 .z-caption .z-caption-content {
 	padding: 1px 1px 1px 6px;
 	color: #262626; 
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 13px;
 	cursor: move;
 }
@@ -55,11 +52,15 @@
 }
 
 .dashboard-widget {
-	margin-top: 4px; 
+	margin-top: 1px; 
 	margin-left: auto; 
 	margin-right: auto;
 	position: relative;
-	width: 94%;	
+	width: 99%;	
+}
+
+.dashboard-widget .z-window-embedded .z-window-content {
+	background: #91bee6 !important;
 }
 
 .dashboard-widget-max {
@@ -80,9 +81,9 @@
 }
 
 .favourites-box {
-	width: 90%;
+	width: 100%;
 	margin: auto;
-	padding: 5px 0px 5px 0px;
+	padding: 1px 0px 1px 0px;
 }
 
 .favourites-box .z-vbox {
@@ -90,8 +91,8 @@
 }
 
 .favourites-box .z-hbox {
-	padding: 2px 0px;
-	width: 100%;
+	padding: 0px 4px;
+	width: 100%; 
 }
 
 .favourites-box .z-toolbar-start {
@@ -103,14 +104,14 @@
 }
 
 .recentitems-box {
-	width: 90%;
+	width: 100%;
 	margin: auto;
-	padding: 5px 0px 5px 0px;
+	padding: 1px 0px 1px 0px;
 }
 
 .recentitems-box A {
 	display: block;
-	padding: 2px 0px;
+	padding: 1px 0px;
 }
 
 .recentitems-box .z-toolbar-start {
@@ -132,17 +133,13 @@
 }
 	
 .views-box {
-	width: 95%;
+	width: 100%;
 	margin: auto;
-	padding: 10px 0px 10px 0px !important;
+	padding: 2px 0px 2px 0px;
 }
 
 .views-box .z-vbox {
-	width: 99%;
-}
-
-.views-box .z-window-content .z-vbox .z-vbox-separator td {
-    background-color: #FFFFFF;
+	width: 100%;
 }
 
 .views-box .z-toolbarbutton {
@@ -162,11 +159,8 @@
 }
 
 .views-box .link img {
-    height: 16px;
-    width: 16px;
-    border: 1px solid #E8E8E8;
-    padding: 5px 5px 5px 5px;
-    background: #E8E8E8;
+	height: 16px;
+	width: 16px;
 }
 .views-box .z-toolbarbutton [class^="z-icon"] {
 	text-align: center;
@@ -179,15 +173,10 @@
 	color: #333 !important;
 }
 
-.views-box .z-toolbarbutton-cnt {
-	padding: 0px 0px 0px 0px;
-	font-size: 11px !important;
-}
-
 .activities-box {
 	width: 100%;
 	margin: auto;
-	padding: 5px 5px 5px 5px;
+	padding: 0px 14px;
 	cursor: pointer;
 }
 
@@ -200,8 +189,8 @@
 }
 
 .recentitems-box .z-toolbar, .favourites-box .z-toolbar {
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 <%-- performance indicator --%>
@@ -217,17 +206,17 @@
 .window-view-pi .performance-indicator img {
 }
 .performance-indicator-box {
-	background-color: #FCF9EA; 
+	background-color: #eee; 
 	border: 1px solid #d8d8d8; 
-	border-radius: 5px; 
+	border-radius: 11px; 
 	cursor: pointer;
 }
 .performance-indicator-title {
 	text-align: center; 
 	background-color: #c8c8c8; 
 	border: 1px solid #c8c8c8;
-	padding-top: 2px; 
-	padding-bottom: 2px;
+	padding-top: 1px; 
+	padding-bottom: 1px;
 	line-height:12px;
 }
 .performance-panel .z-grid {
@@ -244,7 +233,7 @@
 
 .help-content
 {
-	padding: 5px;
+	padding: 2px;
 	font-size: 12px;
 	font-weight: normal;
 }
@@ -260,3 +249,40 @@
 	padding-right: 4px;
 }
 
+<%-- User Favorite Dashboard Panel Start --%>
+.fav-tree-panel {
+  border-radius: 0px;
+  border: 1px solid #d8d8d8 !important;
+}
+
+.fav-toolbar {
+}
+
+.fav-toolbar-div {
+  position: relative;
+  width: 100%;
+}
+
+.fav-tree-btn {
+  margin-left: 5px !important;
+  padding: 3px 15px;
+  border: 1px solid #6d6d6d;
+}
+
+.fav-folder-textbox {
+  width: 100%;
+}
+.fav-summary-folder .z-treecell-content {
+  font-weight: bold;
+}
+
+.fav-expand-mode {
+  transform: rotate(180deg);
+}
+
+.fav-mobile-ctx-menu {
+  margin: 0px 5px;
+  padding: 0px 5px;
+  vertical-align: middle;
+}
+<%-- User Favorite Dashboard Panel End --%>

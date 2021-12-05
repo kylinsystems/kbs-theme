@@ -4,6 +4,7 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 
 .z-window-embedded .z-window-content {
 	border: none;
+	background: #d9e5ef;
 }
 
 .z-window-embedded .z-window-header, 
@@ -16,10 +17,6 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 }
 .z-window {
 	padding: 0px;
-}
-
-.z-window-embedded .z-window-content {
-	border: none;
 }
 
 .z-window-overlapped .z-window-content,  .z-window-modal .z-window-content, 
@@ -57,6 +54,7 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 
 .z-window-header, .z-window-content {
 	background-image: none !important;
+	background: #91bee6;
 }
 
 .z-window-modal-shadow, .z-window-overlapped-shadow, .z-window-popup-shadow, .z-window-embedded-shadow, .z-window-highlighted-shadow
@@ -111,23 +109,17 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 	box-shadow: inset 0 1px 0 #ffffff;
 }
 
-<%-- customization for attachment window --%>
 .dialog-footer .z-south-body .z-hlayout {
     white-space: nowrap;
     background-color: #eaf0ff;
 }
 
-<%-- customization for search window --%>
 .dialog-footer .z-south-body {
     background-color: #eaf0ff;
 }
 
 .btn-ok {
 	font-weight: bold;
-}
-
-.z-vbox-separator td {
-    background-color: #E9F0FF;
 }
 
 <%-- notification message --%>

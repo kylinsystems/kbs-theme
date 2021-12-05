@@ -29,6 +29,13 @@ when detect side effect, fix to only apply for parameter window*/
     background-color: #E9F0FF;
 }
 
+.main-parameter-layout{
+	border-top: 1px solid #C5C5C5 !important;
+	border-bottom: 1px solid #C5C5C5 !important;
+	border-right: 1px solid #c5c5c5 !important;
+	border-left: 1px solid #c5c5c5 !important;
+}
+
 .report-option-container {
 	overflow-x: auto;
 }
@@ -36,13 +43,12 @@ when detect side effect, fix to only apply for parameter window*/
 	overflow: auto;
 	padding-bottom: 2vh;
 	flex-basis: auto;
-	border: 1px solid #c5c5c5;
 }
 
 .bottom-parameter-layout{
 	background-color: #e9f0ff;
 	padding: 4px 4px 0px 4px;
-	border: 1px solid #c5c5c5;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
 	overflow: visible;
 }
 
@@ -51,12 +57,6 @@ when detect side effect, fix to only apply for parameter window*/
 	overflow: auto; 
 	margin: 10px;
 	line-height: normal;
-}
-
-.message-parameter-layout{
-	width: 100%;
-	background-color: #CCE5F4;
-	border-bottom: 1px solid #c5c5c5;
 }
 
 .option-input-parameter{
@@ -95,15 +95,21 @@ when detect side effect, fix to only apply for parameter window*/
 
 .input-paramenter-layout{
 	width: 70%;
+	margin-left: 5%;
+	margin-right: 25%;
 }
 @media screen and (max-width: 700px) {
 	.input-paramenter-layout{
 		width: 90% !important;
+		margin-left: 2% !important;
+		margin-right: 8% !important;
 	}
 }
 @media screen and (max-width: 500px) {
 	.input-paramenter-layout{
 		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 }
 

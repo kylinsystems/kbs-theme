@@ -17,9 +17,10 @@
 
 .desktop-header {
 	background-color: #E9F0FF;
+	background-image: linear-gradient(#91bee6, #E9F0FF);
 	width: 100%;
 	height: 46px;
-	border-bottom: 1px solid #C5C5C5 !important;
+	border-bottom: 0px solid #C5C5C5 !important;
 	padding-left: 4px;
 }
 .desktop-header.mobile {
@@ -58,7 +59,11 @@
 	float: right;
 }
 .desktop-user-panel.mobile .desktop-header-font.desktop-header-username {
-	font-weight: 600;
+    font-weight: 300;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .desktop-layout {
@@ -77,8 +82,7 @@
 }
 
 .desktop-tabbox .z-tabs-content {
-    width: 5555px !important;
-	background-color: #E9F0FF;
+    background-color: #E9F0FF;
 }
 
 <%-- customization for search window --%>
@@ -111,7 +115,7 @@
 }
 
 .desktop-tabbox .z-tab-selected {
-	border-top: 4px solid #FCC654;
+	border-top: 3px solid #F39700;
 	border-top-left-radius: 5px 5px;
 	border-top-right-radius: 5px 5px;
 }
@@ -130,8 +134,14 @@
 }
 
 .desktop-center {
-	padding-top: 2px;
+	padding-top: 1px;
 	background-color: #E4E4E4;
+}
+
+.desktop-center .z-window-content {
+	border-bottom: 1px solid #C5C5C5 !important;
+	border-right: 1px solid #c5c5c5 !important;
+	border-left: 1px solid #c5c5c5 !important;
 }
 
 .desktop-center .desktop-tabbox .z-tabpanel {
@@ -165,13 +175,13 @@
 
 .desktop-left-column + .z-west-splitter,  .desktop-left-column.z-west {
 	border-top: none; 
-	border-right: 1px solid #c5c5c5;
+	border-right: 0px solid #c5c5c5;
 	background-color: #E9F0FF;
 }
 
 .desktop-right-column + .z-east-splitter,  .desktop-right-column.z-east {
 	border-top: none; 
-	border-left: 1px solid #c5c5c5;
+	border-left: 0px solid #c5c5c5;
 	background-color: #E9F0FF;
 }
 
@@ -198,7 +208,7 @@
 .z-anchorchildren { overflow:visible }
 
 .desktop-hometab {
-	margin-left: 2px !important;
+    margin-left: 2px !important;
 }
 
 .desktop-tabbox .z-tabs .z-toolbar-tabs-body {
@@ -295,4 +305,18 @@
 .user-panel-popup .z-popup-content > .z-vlayout {
 	overflow-x: auto;
 	padding: 8px;
+}
+
+.z-menuitem.selected .z-menuitem-text {
+    font-weight: bold;
+}
+
+.window-container-toolbar-btn.tab-list {
+    font-size: smaller;
+    padding-right: 6px;
+}
+.window-container-toolbar-btn.tab-list i {
+    padding-right: 0px;
+    margin-right: -4px;
+    font-size: larger;
 }
