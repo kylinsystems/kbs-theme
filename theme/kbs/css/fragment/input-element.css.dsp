@@ -1,5 +1,5 @@
 <%-- Combobox --%>
-.z-combobox-disabled, .z-combobox[disabled] {
+.z-combobox-disabled, .z-combobox[disabled], .z-datebox-disabled {
 	color: black !important; cursor: default !important; opacity: 1; -moz-opacity: 1; -khtml-opacity: 1; filter: alpha(opacity=100);
 }
 
@@ -14,8 +14,8 @@
 	min-height:14px;
 }
 <%-- highlight focus form element --%>
-input:focus, textarea:focus, .z-combobox-input:focus, z-datebox-input:focus {
-	border: 1px solid #F39700;
+input:focus, textarea:focus, .z-combobox-input:focus, z-datebox-input:focus, select:focus {
+	border: 1px solid #0000ff;
 	background: #FFFFCC;
 }
 
@@ -27,7 +27,7 @@ input:focus, textarea:focus, .z-combobox-input:focus, z-datebox-input:focus {
 }
 
 .z-textbox[disabled], .z-intbox[disabled], .z-longbox[disabled], .z-doublebox[disabled], 
-.z-decimalbox[disabled], .z-datebox[disabled], .z-timebox[disabled] {
+.z-decimalbox[disabled], .z-datebox[disabled], .z-timebox[disabled], .z-datebox-input[readonly] {
 	color: black !important;
 	background-color: #F0F0F0 !important;
 	cursor: default !important;

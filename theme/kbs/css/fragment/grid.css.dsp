@@ -7,7 +7,7 @@
 
 .z-grid tbody tr.grid-inactive-row td.row-indicator-selected {
 	background-color: #DCDAD4 !important;
-	background-image: url(${c:encodeURL('/theme/kbs/images/EditRecord16.png')}) !important;
+	background-image: url(${c:encodeURL('~./theme/kbs/images/EditRecord16.png')}) !important;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 16px 16px;  
@@ -27,7 +27,7 @@
 
 .z-grid tbody tr.highlight td.row-indicator-selected {
 	background-color: #FFFFCC !important;
-	background-image: url(${c:encodeURL('/theme/kbs/images/EditRecord16.png')}) !important;
+	background-image: url(${c:encodeURL('~./theme/kbs/images/EditRecord16.png')}) !important;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 16px 16px;  
@@ -58,7 +58,12 @@ div.z-column-cnt, div.z-grid-header div.z-auxheader-cnt {
 	display: inline-block;
 	width: 100%;
 }
-
+@media only screen 
+  and (max-device-width: 700px) {
+	.z-listcell > div.z-listcell-content {
+		white-space: pre-line;
+	}	
+}
 .z-column-content, .z-listheader-content, .z-listcell-content {
 	padding: 2px 3px 1px;
 }
