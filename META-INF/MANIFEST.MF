@@ -2,11 +2,9 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: KBS iDempiere Theme
 Bundle-SymbolicName: com.kylinsystems.kbs.theme;singleton:=true
-Bundle-Version: 7.1.0.qualifier
-Bundle-Vendor: KSYS
+Bundle-Version: 9.0.0.qualifier
+Bundle-Vendor: Ken Longnan <ken.longnan@gmail.com>
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Fragment-Host: org.adempiere.ui.zk;bundle-version="0.0.0"
-Jetty-WarFragmentFolderPath: /
-Bundle-ClassPath: .,theme/
-Bundle-ActivationPolicy: lazy
+Jetty-WarPrependFragmentResourcePath: /
 Automatic-Module-Name: com.kylinsystems.kbs.theme
